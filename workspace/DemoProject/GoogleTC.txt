@@ -1,0 +1,4 @@
+1. Launch Browser
+2. Navigate to http://www.google.com
+3. Type on Search Textbox nad press enter: take the searchText from excel.
+4. Take a screenshot and save it, as per appropriate folder structure.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="testsuits.GoogleTestCases">
+				<methods>
+					<exclude name="TC01_SearchSelenium" />
+					<include name="TC02_SearchJava" />
+				</methods>
+			</class>
+			<class name="testsuits.MercuryTestCases">
+				<methods>
+					<exclude name="TC01_MercuryLoginSuccess" />
+					<exclude name="TC02_MercuryLoginFailure" />
+					<exclude name="TC03_MercuryBookFlight" />
+				</methods>
+			</class>
+			<class name="testsuits.MagnetoTestCases">
+				<methods>
+					<exclude name="TC01_SortMobile" />
+					<exclude name="TC02_VerifyMobileCost" />
+					<exclude name="TC03_VerifyCartValue" />
+					<exclude name="TC04_HandlingPopUpWindow" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
