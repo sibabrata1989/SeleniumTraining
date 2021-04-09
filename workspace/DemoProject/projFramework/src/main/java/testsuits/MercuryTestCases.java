@@ -62,6 +62,7 @@ public class MercuryTestCases
 		} catch (Exception e)
 		{
 			e.printStackTrace();
+			Assert.fail();
 		}
 	
 	}
@@ -91,6 +92,6 @@ public class MercuryTestCases
 	@AfterClass
 	public void CloseDriver()
 	{
-		driver.close();
+		//driver.close();
 	}
 }
